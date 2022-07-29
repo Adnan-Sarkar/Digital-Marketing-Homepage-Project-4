@@ -11,9 +11,9 @@ I'm `Adnan Sarkar`. This is the 4th assignment in my [Full Stack Javascript](htt
 ## 🖥 Preview
 `note:` please make sure the preview screen is `1920 x 1080`
 
-[Live Preview]()
+[Live Preview](https://digital-marketing-homepage-project-4.netlify.app/)
 
-![]()
+![](Digital%20Marketing%20Homepage.png)
 
 ##  What I have learned in this project?
 - Flex-box for elements alignment.
