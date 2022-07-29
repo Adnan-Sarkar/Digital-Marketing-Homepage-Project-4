@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+/* common btn style */
+.btn-fill-small {
+    padding: 15px 30px;
+    background-color: #5955B3;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.btn-fill-large {
+    padding: 20px 40px;
+    background-color: #5955B3;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hero {
+    padding-top: 30px;
+    height: 100vh;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .brand {
+    width: 10%;
+    height: 10%;
+}
+
+.menu-items {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-items ul {
+    display: flex;
+    padding-left: 40px;
+}
+
+.menu-items ul li {
+    margin-left: 40px;
+}
+
+.menu-items ul li a {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #B3B3B3;
+    transition: color 300ms linear;
+}
+
+.menu-items ul li a:hover {
+    color: #000;
+}
+
+.contact-btn {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+/* hero-content */
+.hero-content {
+    height: 90%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-content-left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-content-left h1 {
+    font-size: 62px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #3C2F60;
+    margin-bottom: 30px;
+}
+
+.hero-content-left h1 span {
+    color: #5955B3;
+}
+
+.hero-content-left p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #828282;
+    margin-bottom: 60px;
+}
+
+
+.hero-content-left a {
+    display: inline;
+}
+
+.hero-content-right {
+    width: 75%;
+    height: 100%;
+    position: relative;
+}
+
+.hero-content-right img {
+    position: absolute;
+    width: 85%;
+    top: 2%;
+    right: -10%;
+}
